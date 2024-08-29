@@ -40,8 +40,11 @@ Before install and run the project you will need:
    - The server will serve files from the `src/main/webroot` directory.
      
 **Static Files**:
+
 ![image](https://github.com/user-attachments/assets/fcbfc896-2723-47de-b8b7-5ffe44ee6173)
+
 ![image](https://github.com/user-attachments/assets/1dd02b6e-f21e-48ef-9b01-c4bc46e3ade9)
+
 **GET Requests**:
 - **Greeting**: Access the URL `/App/hello` with and without query parameters to verify the greeting functionality. Example: `http://localhost:8080/App/hello?name=JuanDavid`.
 ![image](https://github.com/user-attachments/assets/894367b2-66eb-449a-95e1-daf6c647e78c)

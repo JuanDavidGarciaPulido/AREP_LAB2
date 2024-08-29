@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servidor Web Simple</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<h1>Form with GET</h1>
+<form id="imageForm">
+    <label for="imageName">¿Qué fruta le gustaría ver?</label><br>
+    <input type="text" id="imageName" name="imageName" value="manzanas.png" required><br><br>
+    <button type="submit">Submit</button>
+    <br><br>
+    <img id="resultImage" alt="La imagen aparecerá aquí" style="display: none; width: 300px;">
+</form>
+<div id="getrespmsg"></div>
+
+<h1>Form with POST</h1>
+<form id="nameForm">
+    <label for="nameInput">Digite el nombre de usuario:</label><br>
+    <input type="text" id="nameInput" name="nameInput"><br><br>
+    <button type="submit">Submit</button>
+</form>
+
+<div id="result"></div>
+
+<script src="script.js"></script>
+</body>
+</html>

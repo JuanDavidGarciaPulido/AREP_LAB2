@@ -47,8 +47,11 @@ Before install and run the project you will need:
 
 **GET Requests**:
 - **Greeting**: Access the URL `/App/hello` with and without query parameters to verify the greeting functionality. Example: `http://localhost:8080/App/hello?name=JuanDavid`.
+
 ![image](https://github.com/user-attachments/assets/894367b2-66eb-449a-95e1-daf6c647e78c)
+
 - **Pi Value**: Access the URL `/App/pi` to check that the server correctly returns the value of pi.
+
 ![image](https://github.com/user-attachments/assets/ff13af99-102e-43ff-991e-f11c48647aea)
 
 ## Configuration

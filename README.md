@@ -98,7 +98,7 @@ SimpleWebServer/
 ## Running the tests
 Run the command:
 ```sh
-   mvn package
+   mvn test
 ```
 
 ![image](https://github.com/user-attachments/assets/c22c039b-7bfb-4285-9b16-fc805256cd68)
